@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - ``
 
+## [0.2.1] - 2023-03-09
+
+### Fixed
+
+- `--code-only` no longer requires a login
+
 ## [0.2.0] - 2023-03-09
 
 ### Added
@@ -32,4 +38,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `--args` processed normally and allows the steamcmd client to close
 
 [unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/0.2.0...HEAD
+[0.2.0]: https://github.com/WoozyMasta/steamcmd-2fa/compare/0.2.0...0.2.1
 [0.2.0]: https://github.com/WoozyMasta/steamcmd-2fa/compare/e2781444666eca8f77d50ca7b63844a51706aef4...0.2.0

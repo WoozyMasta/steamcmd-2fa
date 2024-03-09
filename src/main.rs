@@ -18,7 +18,14 @@ fn find_default_steamcmd() -> &'static str {
 #[derive(Parser, Debug)]
 #[clap(version, about, long_about = None)]
 struct Args {
-    #[clap(short, long, env, help = "Username to login")]
+    #[clap(
+        short,
+        long,
+        env,
+        default_value = "",
+        hide_default_value = true,
+        help = "Username to login"
+    )]
     username: String,
 
     #[clap(
